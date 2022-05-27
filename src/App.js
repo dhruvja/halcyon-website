@@ -366,7 +366,7 @@ function App() {
         >
           <Logo />
           <Stack direction={'row'} spacing={6}>
-            <Link href={'#'}>Shreyas: 9090909090</Link>
+            <Link href='tel:827-730-9055'>Shreyas: 8277309055</Link>
             {/* <Link href={'#'}>About</Link>
             <Link href={'#'}>Blog</Link>
             <Link href={'#'}>Contact</Link> */}
