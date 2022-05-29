@@ -33,6 +33,10 @@ function TestimonialCard(props) {
         justifyContent={'space-between'}
         position={'relative'}
         bg={useColorModeValue('white', 'gray.800')}
+        _hover={{
+          transform: 'translateY(-2px)',
+          boxShadow: 'lg',
+        }}
         _after={{
           content: '""',
           position: 'absolute',

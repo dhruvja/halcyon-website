@@ -37,6 +37,7 @@ import {useColorMode } from "@chakra-ui/color-mode";
 // import { ColorModeSwitcher } from './ColorModeSwitcher';
 // import theme from './theme';
 import { FcAssistant, FcDonate, FcInTransit } from 'react-icons/fc';
+import {IoMdMail} from 'react-icons/io'
 import Illustration from './components/Icons';
 import { BsSun, BsMoon } from 'react-icons/bs';
 import TestimonialCard from './components/backdrop';
@@ -191,21 +192,18 @@ function Home() {
                 35
               </Text>
               <Box fontSize={'md'}>
-                Description for the number. People always pay attention to
-                numbers.
+                More than 35 Events will take place
               </Box>
             </Flex>
           </GridItem>
           <GridItem w="100%">
             <Flex flexDirection={'column'}>
               <Text fontSize={'4xl'} fontWeight={'bold'}>
-                $200,000
+                ₹290,000+
               </Text>
               <Box fontSize={'md'}>
-                Description for the number. People always pay attention to
-                numbers.
+                Total Cash Prizes 
               </Box>
-              <Button onClick={toggleColorMode}>Toggle</Button>
             </Flex>
           </GridItem>
           <GridItem w="100%">
@@ -214,8 +212,7 @@ function Home() {
                 6
               </Text>
               <Box fontSize={'md'}>
-                Description for the number. People always pay attention to
-                numbers.
+                Total Categories
               </Box>
             </Flex>
           </GridItem>
@@ -225,8 +222,7 @@ function Home() {
                 3000+
               </Text>
               <Box fontSize={'md'}>
-                Description for the number. People always pay attention to
-                numbers.
+                Participants from more than 30 places
               </Box>
             </Flex>
           </GridItem>
@@ -337,13 +333,10 @@ function Home() {
           >
             <Text>© Halcyon 2022. Designed and Built by Dhruv</Text>
             <Stack direction={'row'} spacing={6}>
-              <SocialButton label={'Twitter'} href={'#'}>
-                <FaTwitter />
+              <SocialButton label={'YouTube'} href={'mailto: halcyon.sit@gmail.com'}>
+                <IoMdMail />
               </SocialButton>
-              <SocialButton label={'YouTube'} href={'#'}>
-                <FaYoutube />
-              </SocialButton>
-              <SocialButton label={'Instagram'} href={'#'}>
+              <SocialButton label={'Instagram'} href={'https://www.instagram.com/halcyon_official/?hl=en'}>
                 <FaInstagram />
               </SocialButton>
             </Stack>
