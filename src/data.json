@@ -1,10 +1,670 @@
 {
     "list": [
-        {
-            "name": "Literary"
-        },
-        {
-            "name": "Gaming"
-        }
+      {
+        "name": "Music",
+        "link": "",
+        "events": [
+          {
+            "name": "Light Indian Vocal Solo ",
+            "open": false,
+            "prize": "",
+            "brief": "",
+            "rules": [
+              "Maximum of 3 participants per college.",
+              "Karaoke is allowed.",
+              " Time limit : 4+1 minutes.",
+              "Maximum of two accompanists allowed."
+            ],
+            "date": "16 June 2022",
+            "location": "",
+            "registration_fee": "200"
+          },
+          {
+            "name": "Westren Vocal Solo",
+            "open": false,
+            "prize": "",
+            "brief": "",
+            "rules": [
+              "Maximum of 3 participants per college.",
+              "Maximum of two accompanists are allowed.",
+              "Recorded music or karaoke is allowed. ",
+              "Time limit : is 4+1 minutes."
+            ],
+            "date": "16 June 2022",
+            "location": "",
+            "registration_fee": "200"
+          },
+          {
+            "name": "Battle Of Bands",
+            "open": false,
+            "prize": "",
+            "brief": "",
+            "rules": [
+              "Maximum of two bands per college.",
+              "Maximum of 10 participants per team.",
+              "Only drums with double bass pedal will be provided.",
+              "Time limit 20 minutes which includes both sound check and performance.",
+              "Karaoke, programmed music and special effects are not allowed."
+            ],
+            "date": "16 June 2022",
+            "location": "",
+            "registration_fee": "800"
+          },
+          {
+            "name": "Duet Singing",
+            "open": false,
+            "prize": "",
+            "brief": "",
+            "rules": [
+              "2 members per team.",
+              "A maximum of 3 teams per college are allowed.",
+              "Karaoke and a maximum of 2 accompanists are allowed.",
+              "Time limit: 4+1 minutes.",
+              "Judgment will be based solely on vocals."
+            ],
+            "date": "17 June 2022",
+            "location": "",
+            "registration_fee": "300"
+          },
+          {
+            "name": "Beatboxing Solo",
+            "open": true,
+            "prize": "",
+            "brief": "",
+            "rules": [
+              "Open solo event.",
+              "Two-stage competition (prelims and finals).Time limit (prelims): 2 minutes",
+              "The time limit for finals will be decided on the spot.",
+              "In prelims,each participant has to show vocal percussion skills. ",
+              " In finals, qualified participants must battle face to face on stage.",
+              "No instruments or special effects are allowed.",
+              "Judges' decisions will be based on originality, techniques, and crowd response",
+              "Halcyon music committee reserves the right to make any last-minute changes in the rules."
+            ],
+            "date": "17 June 2022",
+            "location": "",
+            "registration_fee": "200"
+          },
+          {
+            "name": "Classical Vocal Solo",
+            "open": false,
+            "prize": "",
+            "brief": "",
+            "rules": [
+              "Maximum of 3 participants per college.",
+              "One classical piece to be chosen",
+              "Participant has to mention raga and taala",
+              "No recorded music allowed.",
+              "No accompanists are allowed.",
+              "Shruthi boxes are allowed.",
+              "Time limit: 10+1 minutes."
+            ],
+            "date": "18 June 2022",
+            "location": "",
+            "registration_fee": "200"
+          }
+        ],
+        "rules": "",
+        "co_ordinators": [
+          {
+            "name": "Syed Sabahath Ulla",
+            "phone": "8971374459"
+          },
+          {
+            "name": "Ananya Jain",
+            "phone": "8762011160"
+          }
+        ]
+      },
+      {
+        "name": "Literary",
+        "link": "",
+        "events": [
+          {
+            "name": "Spell Bee",
+            "open": true,
+            "prize": "",
+            "brief": "",
+            "rules": [
+              "Open event.",
+              "1st round: Written elimination round.",
+              "2nd round: Verbal round.",
+              "The meanings of various words will be given on demand."
+            ],
+            "date": "16 June 2022",
+            "location": "",
+            "registration_fee": "200"
+          },
+          {
+            "name": "Creative Writing",
+            "open": true,
+            "prize": "",
+            "brief": "",
+            "rules": [
+              "Open event.",
+              "Word limit: 1000 words.",
+              "The topic will be given on spot.",
+              "Time limit: 75 minutes."
+            ],
+            "date": "16 June 2022",
+            "location": "",
+            "registration_fee": "200"
+          },
+          {
+            "name": "Debate",
+            "open": false,
+            "prize": "",
+            "brief": "",
+            "rules": [
+              "Maximum of 3 teams consisting of 2 members each, per college.",
+              "Topic will be announced 24 hours prior to the event.",
+              "One participant speaks for the topic while the other against it.",
+              "Time limit: 75 minutes.",
+              "Each participant speaks for 5 minutes.",
+              "After each team speaks, 2 minutes is allowed for rebuttal.",
+              "Judges as well as audience mayask questions."
+            ],
+            "date": "17 June 2022",
+            "location": "",
+            "registration_fee": "200"
+          },
+          {
+            "name": "Radio Active",
+            "open": true,
+            "prize": "",
+            "brief": "",
+            "rules": [
+              "Open event.",
+              "Maximum of 2 members per team.",
+              "The topic will be given on the spot and participants will have to speak for 4 minutes, one participant speaks as a radio jockey and the other as a guest (prelims).",
+              "Participants shall be given 2 audio tracks and will be asked to speak for 4+1 minutes making use of the audio tracks(finals).",
+              "These tracks shall be given to the participants for a brief period before their performance."
+            ],
+            "date": "17 June 2022",
+            "location": "",
+            "registration_fee": "200"
+          },
+          {
+            "name": "Charadeous Battle",
+            "open": false,
+            "prize": "",
+            "brief": "",
+            "rules": [
+              "3 teams per college.",
+              "3 members per team, Each member of the team needs to enact at least once in a round.",
+              "General Dumb Charades rules apply.",
+              "Top teams qualify for the finals."
+            ],
+            "date": "16 June 2022",
+            "location": "",
+            "registration_fee": "200"
+          },
+          {
+            "name": "BlindFold Texting",
+            "open": true,
+            "prize": "",
+            "brief": "",
+            "rules": [
+              "Open event.",
+              "A text of 160 characters will be read out to the blindfolded participants who have to type it on their phones.",
+              "The participant with the most accurate text wins.",
+              "T9/predictive text and autocorrect are not allowed.",
+              "No restrictions on the phone used."
+            ],
+            "date": "18 June 2022",
+            "location": "",
+            "registration_fee": "200"
+          },
+          {
+            "name": "Poetry Slam",
+            "open": true,
+            "prize": "",
+            "brief": "",
+            "rules": [
+              "Open event.",
+              "Word(s) or a picture(s) will be provided.",
+              "No musical instruments or prerecorded music can be used.",
+              "Time Duration: Preparation- 20 minutes & Recitation- 3 minutes."
+            ],
+            "date": "16 June 2022",
+            "location": "",
+            "registration_fee": "200"
+          },
+          {
+            "name": "20Q",
+            "open": true,
+            "prize": "",
+            "brief": "",
+            "rules": [
+              "Open event.",
+              "2 members per team.",
+              "Prelims: The team members will be separated into two different rooms.",
+              " A list of 20 items and a blank sheet will be given",
+              ". Participants will have to write '3' one-word clues for each item on the list.",
+              "Sheets will then be exchanged with their respective teammates.",
+              "Proper nouns are not allowed.",
+              "The time allotted is 20 minutes. ",
+              "10 minutes are then allotted to guess '3' answers based on the given clues.",
+              "Finals: Standard 20Q rules."
+            ],
+            "date": "17 June 2022",
+            "location": "",
+            "registration_fee": "200"
+          },
+          {
+            "name": "Quiz",
+            "open": true,
+            "prize": "",
+            "brief": "",
+            "rules": [
+              "Open event.",
+              "2 members per team.",
+              "The number of rounds will be decided by the quizmaster. ",
+              " One written preliminary test, from which top teams will be selected for the finals."
+            ],
+            "date": "17 June 2022",
+            "location": "",
+            "registration_fee": "200"
+          }
+        ],
+        "rules": "Decisions of the respective event masters are final and binding for all events.",
+        "co_ordinators": [
+          {
+            "name": "Swaroop Kumar",
+            "phone": "9740585002"
+          },
+          {
+            "name": "Sree Gauri",
+            "phone": "93801865609"
+          }
+        ]
+      },
+      {
+        "name": "Dance",
+        "link": "",
+  
+        "events": [
+          {
+            "name": "Duet Dance",
+            "open": false,
+            "prize": "10000",
+            "brief": "",
+            "rules": [
+              "Duo should consist of only boys/girls",
+              "Combination is not allowed",
+              "Time Limit : 4+1 Minutes"
+            ],
+            "date": "16 June 2022",
+            "location": "",
+            "registration_fee": "300"
+          },
+          {
+            "name": "Western Solo Dance",
+            "open": false,
+            "prize": "6000",
+            "brief": "",
+            "rules": [
+              "Live band or group songaccompanied by dancing is not allowed.",
+              "Time limit : 3 + 2 minutes on stage."
+            ],
+            "date": "17 June 2022",
+            "location": "",
+            "registration_fee": "200"
+          },
+          {
+            "name": "Classical And Folk Dance",
+            "open": false,
+            "prize": "6000",
+            "brief": "",
+            "rules": [
+              "Live band or group song accompanied by dancing is not allowed.",
+              "Respective dance form props are allowed. Maximum number of participants is 6 andminimum is 1.",
+              "Time limit : 3 + 2 minutes on stage."
+            ],
+            "date": "17 June 2022",
+            "location": "",
+            "registration_fee": "200"
+          },
+          {
+            "name": "Choreography",
+            "open": false,
+            "prize": "30000",
+            "brief": "",
+            "rules": [
+              "Time limit : 6 + 2 minutes.",
+              "Pre-recorded music is allowed.",
+              "Points are awarded for costumes, interpretation, entry-exit, facial expression and co-ordination. Maximum.",
+              "Number of participants is 18 and minimum is 6.",
+              "Teams have to submit a video of their performance as per the date announced on the website."
+            ],
+            "date": "17 June 2022",
+            "location": "",
+            "registration_fee": "1200"
+          }
+        ],
+        "rules": "All events allow a maximum of 3 participants or teams percollege. Audio for dance should be made available to the concerned co-ordinator 3 hours prior to the event in a ready to play condition. Poor audio quality is not the responsibility of the organizers. Any costumes, gestures and actions should not be obscene. The decision of the JUDGES is final and binding on all the participants",
+        "co_ordinators": [
+          {
+            "name": "Rishab S",
+            "phone": "9740261868"
+          },
+          {
+            "name": "Srishti S",
+            "phone": "7676888019"
+          }
+        ]
+      },
+      {
+        "name": "Fine Arts",
+        "link": "",
+        "events": [
+          {
+            "name": "Face Painting",
+            "open": true,
+            "prize": "4500",
+            "brief": "",
+            "rules": [
+              "Open event.",
+              "Time limit: 1 hour.",
+              "Topic will be given on spot.",
+              "Paints and brushes will be provided (maximum 6 colors).",
+              "Provisions - Waste cloth/paper, water, plastic cups."
+            ],
+            "date": "16 June 2022",
+            "location": "",
+            "registration_fee": "200"
+          },
+          {
+            "name": "Clay Modelling",
+            "open": true,
+            "prize": "4500",
+            "brief": "",
+            "rules": [
+              "Open and individual event.",
+              "No colours allowed.",
+              "Topic will be given on the spot.",
+              "Clay and water will be provided.",
+              "No other materials must be used.",
+              "Time limit: 1 hour"
+            ],
+            "date": "16 June 2022",
+            "location": "",
+            "registration_fee": "200"
+          },
+          {
+            "name": "Collage",
+            "prize": "3500",
+            "open": true,
+            "brief": "",
+            "rules": [
+              "Open event.",
+              "2 participants per team.",
+              "Time Limit: 1 hour 15 minutes.",
+              "The topic will be given on the spot.",
+              "Chart paper and glue will be provided.",
+              "No other item will be provided.",
+              "Scissors and burning of paper is prohibited.",
+              "Participants will not be allowed to leave the hall during the event."
+            ],
+            "date": "17 June 2022",
+            "location": "",
+            "registration_fee": "200"
+          },
+          {
+            "name": "Split Art",
+            "open": true,
+            "prize": "5500",
+            "brief": "",
+            "rules": [
+              "Open event.",
+              "2 participants per team.",
+              "Time Limit : 1 hour 30 mins.",
+              "Topic will be given on spot.",
+              "Materials will be provided.If other materials are used, the team will be disqualified.",
+              "Participants will be alternatively allowed to paint in intervals of 15 minutes."
+            ],
+            "date": "18 June 2022",
+            "location": "",
+            "registration_fee": "200"
+          },
+          {
+            "name": "Trash To Art",
+            "link": "",
+            "open": true,
+            "prize": "",
+            "brief": "",
+            "rules": [
+              "Open event.",
+              "3 members per team.",
+              "Theme will be provided 2 hours prior to the event.",
+              "No accessories will be provided.",
+              "Only waste materials to be used.",
+              "Damage to college property will attract heavy fine and disqualification.",
+              "Use of transportation to find material is not allowed.",
+              "Time Limit: 1 hour.",
+              "Art must be explained."
+            ],
+            "date": "17 June 2022",
+            "location": "",
+            "registration_fee": "200"
+          },
+          {
+            "name": "Creative Photography",
+            "open": false,
+            "prize": "3500",
+            "brief": "",
+            "rules": [
+              "Individual event.",
+              "Editing of photo is allowed.",
+              "Only cam pictures should be produced in USB portable media storage device (.jpg, jpeg, .tif).",
+              "Downloaded photographs are not allowed.",
+              "The participants can produce only one photograph at the time of submission.",
+              "The topic will be announced on the website 48 hours prior to the event."
+            ],
+            "date": "18 June 2022",
+            "location": "",
+            "registration_fee": "200"
+          },
+          {
+            "name": "Pencil Sketch",
+            "open": true,
+            "prize": "3500",
+            "brief": "",
+            "rules": [
+              "Individual event.",
+              "Time Limit: 45 minutes.",
+              "The topic will be given on spot.",
+              "Only chart paper and stationaries will be provided.",
+              "No other item will be provided.",
+              "Participants will not be allowed to leave the hall during the event"
+            ],
+            "date": "18 June 2022",
+            "location": "",
+            "registration_fee": "200"
+          }
+        ],
+  
+        "co_ordinators": [
+          {
+            "name": "Nekeel N",
+            "phone": "9980099900"
+          },
+          {
+            "name": "Vinay Kumar",
+            "phone": "9741759614"
+          }
+        ]
+      },
+      {
+        "name": "Gaming",
+        "link": "",
+        "events": [
+          {
+            "name": "NFS",
+            "open": false,
+            "prize": "3500",
+            "brief": "",
+            "rules": ["4 participants compete with each other in a circuit."],
+            "date": "18 June 2022",
+            "location": "",
+            "registration_fee": "200"
+          },
+          {
+            "name": "Counter Strike",
+            "open": false,
+            "prize": "12000",
+            "brief": "",
+            "rules": [
+              "5 members per team.",
+              "The maps selected for the competition are de_dust2, de_inferno, de_nuke, and de_train.",
+              "Official ESL ONE Gaming Rules will be followed except for the number of rounds allotted."
+            ],
+            "date": "17 June 2022",
+            "location": "",
+            "registration_fee": "300"
+          },
+          {
+            "name": "Chess",
+            "open": true,
+            "prize": "3500",
+            "brief": "",
+            "rules": [
+              "Open individuals event.",
+              "Castling is allowed.",
+              "The maximum time limit for a move:30 Seconds.",
+              "Each piece has some points.",
+              "3 wrong moves lead to elimination."
+            ],
+            "date": "17 June 2022",
+            "location": "",
+            "registration_fee": "200"
+          },
+          {
+            "name": "Battle Grounds Mobile India",
+            "open": false,
+            "prize": "7000",
+            "brief": "",
+            "rules": [
+              "A team of 4 is allowed.",
+              "The map selected for the competition is ERANGLE.",
+              "All players in a team must have held a ranking of level 15 in the game and above platinum V tier, at the time of registration.",
+              "Players may participate in the event only on a mobile phone or any other handheld devices.",
+              "Players are not allowed to use peripheral devices of any kind."
+            ],
+            "date": "16 June 2022",
+            "location": "",
+            "registration_fee": ""
+          }
+        ],
+        "rules": "All gaming events are open events. The team must confirm their entries with the gaming coordinators at the venue at least 10 minutes prior to the event. The use of obscene language imbibed into the team's play incurs disqualification.Discrepancies in the formation of the team shall lead to disqualification. All rules are subjected to change at the discretion of the gaming coordinators and their decisions are final. Joysticks and gamepads are allowed with the REQUIRED software at the owner's risk",
+        "co_ordinators": [
+          {
+            "name": "Vikas M",
+            "phone": "6362431302"
+          },
+          {
+            "name": "Darshan T R",
+            "phone": "7022643854"
+          }
+        ]
+      },
+      {
+        "name": "Theatre",
+        "link": "",
+        "events": [
+          {
+            "name": "Stand-Up Comedy",
+            "open": false,
+            "prize": "3500",
+            "brief": "",
+            "rules": [
+              "Individual event.",
+              "The script should be submitted 10 minutes beforehand for verification.",
+              "The time allowed is 5+2 minutes."
+            ],
+            "date": "16 June 2022",
+            "location": "",
+            "registration_fee": "200"
+          },
+          {
+            "name": "Street Play",
+            "open": true,
+            "prize": "16500",
+            "brief": "",
+            "rules": [
+              "Open event.",
+              "Time limit: 12+3 minutes.",
+              "Minimum 8 and maximum 15 participants per team.",
+              "Props and musical instruments are allowed.",
+              "The play should be for a social cause."
+            ],
+            "date": "16 June 2022",
+            "location": "",
+            "registration_fee": "800"
+          },
+          {
+            "name": "Skit",
+            "open": true,
+            "prize": "16500",
+            "brief": "",
+            "rules": [
+              "Open event.",
+              "Minimum 6 and maximum 15 participants including narrator(if any).",
+              "Props and costumes are allowed.",
+              "The performance should not be a part of any movie or TV show.",
+              "Time limit: 10+2 minutes"
+            ],
+            "date": "17 June 2022",
+            "location": "",
+            "registration_fee": "800"
+          },
+          {
+            "name": "60 Seconds To Fame",
+            "open": true,
+            "prize": "3000",
+            "brief": "",
+            "rules": [
+              "Open event.",
+              "Maximum of 2 participants per team.",
+              "Judgment is based on creativity, innovation, and uniqueness.",
+              "The performance can be dance, mimicry, magic, comical, etc. as long as it is not obscene.",
+              "Props are allowed.",
+              "Time limit given is 60 seconds."
+            ],
+            "date": "18 June 2022",
+            "location": "",
+            "registration_fee": "200"
+          },
+          {
+            "name": "Mime",
+            "open": true,
+            "prize": "10000",
+            "brief": "",
+            "rules": [
+              "Open event.",
+              "Maximum 7 participants per team.",
+              "1 accompanist is allowed.",
+              "No props should be used.",
+              "Only background music without vocals is allowed.",
+              "Time Limit: 4+2 minutes."
+            ],
+            "date": "18 June 2022",
+            "location": "",
+            "registration_fee": "500"
+          }
+        ],
+        "rules": "Vulgarity and obscenity in/of any form is not allowed.Participants are requested to refrain from using controversial remarks. Repetition of the same scripts in different events will be disqualified.",
+        "co_ordinators": [
+          {
+            "name": "Vishwas N",
+            "phone": "8971655118"
+          },
+          {
+            "name": "Amulya B Ingale",
+            "phone": "6361611766"
+          }
+        ]
+      }
     ]
-}
+  }
+  
