@@ -9,7 +9,7 @@ function App() {
     <div className="App">
       <Router>
         <Switch>
-            <Route path="/single/:name" component={SingleEvent} />
+            <Route path="/events/:genre/:id" component={SingleEvent} />
             <Route path="/events/:genre" component={Events} />
             <Route path="/" component={Home} />
         </Switch>

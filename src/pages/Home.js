@@ -33,11 +33,11 @@ import {
   useBreakpointValue,
   // theme
 } from '@chakra-ui/react';
-import {useColorMode } from "@chakra-ui/color-mode";
+import { useColorMode } from '@chakra-ui/color-mode';
 // import { ColorModeSwitcher } from './ColorModeSwitcher';
 // import theme from './theme';
 import { FcAssistant, FcDonate, FcInTransit } from 'react-icons/fc';
-import {IoMdMail} from 'react-icons/io'
+import { IoMdMail } from 'react-icons/io';
 import Illustration from './components/Icons';
 import { BsSun, BsMoon } from 'react-icons/bs';
 import TestimonialCard from './components/backdrop';
@@ -48,7 +48,6 @@ import { testimonials } from './components/testimonials';
 // const testimonials = require('./testimonials')
 
 function Home() {
-
   const { colorMode, toggleColorMode } = useColorMode();
   const { name, role, content, avatar, index } = testimonials;
 
@@ -56,7 +55,9 @@ function Home() {
     <ChakraProvider theme={theme}>
       <Box bg={useColorModeValue('white.100', 'white.900')} px={4}>
         <Flex h={16} alignItems={'center'} justifyContent={'space-between'}>
-          <Box>Logo</Box>
+          <Link href="/">
+            <Box>Logo</Box>
+          </Link>
           <Flex alignItems={'center'}>
             <Stack direction={'row'} spacing={7}>
               <Button
@@ -72,14 +73,15 @@ function Home() {
         </Flex>
       </Box>
       <Flex
-      w={'full'}
-      h={'80vh'}
-      backgroundImage={
-        'url(https://images.unsplash.com/photo-1600267175161-cfaa711b4a81?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80)'
-      }
-      backgroundSize={'cover'}
-      backgroundPosition={'center center'}>
-      {/* <VStack
+        w={'full'}
+        h={'80vh'}
+        backgroundImage={
+          'url(https://images.unsplash.com/photo-1600267175161-cfaa711b4a81?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80)'
+        }
+        backgroundSize={'cover'}
+        backgroundPosition={'center center'}
+      >
+        {/* <VStack
         w={'full'}
         justify={'center'}
         px={useBreakpointValue({ base: 4, md: 8 })}
@@ -111,7 +113,7 @@ function Home() {
           </Stack>
         </Stack>
       </VStack> */}
-    </Flex>
+      </Flex>
       <Container maxW={'5xl'} py={12}>
         <SimpleGrid columns={{ base: 1, md: 2 }} spacing={10}>
           <Stack spacing={4}>
@@ -127,7 +129,9 @@ function Home() {
             >
               About Halcyon
             </Text>
-            <Heading >To Mysteries and Buried Secrets From The Tales Of Old</Heading>
+            <Heading>
+              To Mysteries and Buried Secrets From The Tales Of Old
+            </Heading>
             <Text color={'gray.500'} fontSize={'lg'}>
               Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
               nonumy eirmod tempor invidunt ut labore
@@ -191,9 +195,7 @@ function Home() {
               <Text fontSize={'4xl'} fontWeight={'bold'}>
                 35
               </Text>
-              <Box fontSize={'md'}>
-                More than 35 Events will take place
-              </Box>
+              <Box fontSize={'md'}>More than 35 Events will take place</Box>
             </Flex>
           </GridItem>
           <GridItem w="100%">
@@ -201,9 +203,7 @@ function Home() {
               <Text fontSize={'4xl'} fontWeight={'bold'}>
                 ₹290,000+
               </Text>
-              <Box fontSize={'md'}>
-                Total Cash Prizes 
-              </Box>
+              <Box fontSize={'md'}>Total Cash Prizes</Box>
             </Flex>
           </GridItem>
           <GridItem w="100%">
@@ -211,9 +211,7 @@ function Home() {
               <Text fontSize={'4xl'} fontWeight={'bold'}>
                 6
               </Text>
-              <Box fontSize={'md'}>
-                Total Categories
-              </Box>
+              <Box fontSize={'md'}>Total Categories</Box>
             </Flex>
           </GridItem>
           <GridItem w="100%">
@@ -221,9 +219,7 @@ function Home() {
               <Text fontSize={'4xl'} fontWeight={'bold'}>
                 3000+
               </Text>
-              <Box fontSize={'md'}>
-                Participants from more than 30 places
-              </Box>
+              <Box fontSize={'md'}>Participants from more than 30 places</Box>
             </Flex>
           </GridItem>
         </Grid>
@@ -308,10 +304,16 @@ function Home() {
         >
           <Logo />
           {/* <Stack direction={'row'} spacing={6}> */}
-            <p>Shreyas Upadhya: <Link href='tel:827-730-9055'>827-730-9055</Link></p>
-            <p>Karthik Salera: <Link href='tel:938-026-8943'>938-026-8943</Link></p>
-            <p>Urvi R Naidu: <Link href='tel:733-810-6255'>733-810-6255</Link></p>
-            {/* <Link href={'#'}>About</Link>
+          <p>
+            Shreyas Upadhya: <Link href="tel:827-730-9055">827-730-9055</Link>
+          </p>
+          <p>
+            Karthik Salera: <Link href="tel:938-026-8943">938-026-8943</Link>
+          </p>
+          <p>
+            Urvi R Naidu: <Link href="tel:733-810-6255">733-810-6255</Link>
+          </p>
+          {/* <Link href={'#'}>About</Link>
             <Link href={'#'}>Blog</Link>
             <Link href={'#'}>Contact</Link> */}
           {/* </Stack> */}
@@ -333,10 +335,16 @@ function Home() {
           >
             <Text>© Halcyon 2022. Designed and Built by Dhruv</Text>
             <Stack direction={'row'} spacing={6}>
-              <SocialButton label={'YouTube'} href={'mailto: halcyon.sit@gmail.com'}>
+              <SocialButton
+                label={'YouTube'}
+                href={'mailto: halcyon.sit@gmail.com'}
+              >
                 <IoMdMail />
               </SocialButton>
-              <SocialButton label={'Instagram'} href={'https://www.instagram.com/halcyon_official/?hl=en'}>
+              <SocialButton
+                label={'Instagram'}
+                href={'https://www.instagram.com/halcyon_official/?hl=en'}
+              >
                 <FaInstagram />
               </SocialButton>
             </Stack>

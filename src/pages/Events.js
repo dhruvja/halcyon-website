@@ -57,9 +57,11 @@ function Events(props) {
   const [present, setPresent] = useState(false);
   const [redirect, setRedirect] = useState(false);
   const [dataItems, setDataItems] = useState([]);
+  const [genre, setGenre] = useState('');
 
   useEffect(() => {
     setDataItems(data.list);
+    setGenre(props.match.params.genre);
     switch (props.match.params.genre) {
       case 'literary':
         setIndex(1);
@@ -95,7 +97,9 @@ function Events(props) {
       {redirect && <Redirect to="/" />}
       <Box bg={useColorModeValue('white.100', 'white.900')} px={4}>
         <Flex h={16} alignItems={'center'} justifyContent={'space-between'}>
-          <Box>Logo</Box>
+          <Link href="/">
+            <Box>Logo</Box>
+          </Link>
           <Flex alignItems={'center'}>
             <Stack direction={'row'} spacing={7}>
               <Button
@@ -114,8 +118,8 @@ function Events(props) {
         <Heading as="h1">Genre Events</Heading>
         {present &&
           dataItems[index].events.map((value, index) => {
-              console.log(value)
-            return <EventPost data={value} />;
+            console.log(value);
+            return <EventPost data={value} genre={genre} index={index} />;
           })}
       </Container>
       <Box

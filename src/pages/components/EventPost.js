@@ -6,20 +6,22 @@ import {
   Text,
   Heading,
   useColorModeValue,
-  HStack
+  HStack,
+  Button,
 } from '@chakra-ui/react';
 import { useColorMode } from '@chakra-ui/color-mode';
+import { BsArrowRight } from 'react-icons/bs';
 
 function EventPost(props) {
   const { colorMode, toggleColorMode } = useColorMode();
   const [data, setData] = useState({});
-  const [present, setPresent] = useState(false)
+  const [present, setPresent] = useState(false);
 
   useEffect(() => {
     console.log(props.data);
-    setData(props.data)
-    setPresent(true)
-  },[])
+    setData(props.data);
+    setPresent(true);
+  }, []);
 
   return (
     <Box
@@ -28,7 +30,7 @@ function EventPost(props) {
       flexDirection={{ base: 'column', sm: 'row' }}
       justifyContent="space-between"
     >
-    <Box
+      <Box
         display="flex"
         flex="1"
         marginRight="3"
@@ -41,7 +43,7 @@ function EventPost(props) {
           marginLeft={{ base: '0', sm: '5%' }}
           marginTop="5%"
         >
-          <Link textDecoration="none" _hover={{ textDecoration: 'none' }}>
+          <Link textDecoration="none" _hover={{ textDecoration: 'none' }} href={`/events/${props.genre}/${props.index}`}>
             <Image
               borderRadius="lg"
               src={
@@ -73,7 +75,7 @@ function EventPost(props) {
       >
         {/* <BlogTags tags={['Engineering', 'Product']} /> */}
         <Heading marginTop="1">
-          <Link textDecoration="none" _hover={{ textDecoration: 'none' }}>
+          <Link textDecoration="none" _hover={{ textDecoration: 'none' }} href={`/events/${props.genre}/${props.index}`}>
             {data.name}
           </Link>
         </Heading>
@@ -83,31 +85,43 @@ function EventPost(props) {
           color={useColorModeValue('gray.700', 'gray.200')}
           fontSize="lg"
         >
-          {present && data.rules.map((value, index) => {
-              console.log(value)
-              return value + " ";
-          })}
+          {present &&
+            data.rules.map((value, index) => {
+              console.log(value);
+              return value + ' ';
+            })}
         </Text>
         <BlogAuthor name={data.date} date={new Date('2021-04-06T19:01:27Z')} />
+        <br />
+        <br />
+        {/* <Link>
+          <Button
+            rightIcon={<BsArrowRight />}
+            colorScheme="blue"
+            variant="solid"
+          >
+            Know More
+          </Button>
+        </Link> */}
       </Box>
     </Box>
   );
 }
 
 const BlogAuthor = props => {
-    return (
-      <HStack marginTop="2" spacing="2" display="flex" alignItems="center">
-        <Image
-          borderRadius="full"
-          boxSize="40px"
-          src="https://100k-faces.glitch.me/random-image"
-          alt={`Avatar of ${props.name}`}
-        />
-        <Text fontWeight="medium">{props.name}</Text>
-        <Text>—</Text>
-        <Text>{props.date.toLocaleDateString()}</Text>
-      </HStack>
-    );
-  };
+  return (
+    <HStack marginTop="2" spacing="2" display="flex" alignItems="center">
+      <Image
+        borderRadius="full"
+        boxSize="40px"
+        src="https://100k-faces.glitch.me/random-image"
+        alt={`Avatar of ${props.name}`}
+      />
+      <Text fontWeight="medium">{props.name}</Text>
+      <Text>—</Text>
+      <Text>{props.date.toLocaleDateString()}</Text>
+    </HStack>
+  );
+};
 
 export default EventPost;
