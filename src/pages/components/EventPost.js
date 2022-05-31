@@ -11,17 +11,23 @@ import {
 } from '@chakra-ui/react';
 import { useColorMode } from '@chakra-ui/color-mode';
 import { BsArrowRight } from 'react-icons/bs';
+import {Redirect} from 'react-router-dom'
 
 function EventPost(props) {
   const { colorMode, toggleColorMode } = useColorMode();
   const [data, setData] = useState({});
   const [present, setPresent] = useState(false);
+  const [redirect, setRedirect] = useState(false)
 
   useEffect(() => {
     console.log(props.data);
     setData(props.data);
     setPresent(true);
   }, []);
+
+  const handleClick = () => {
+    setRedirect(true)
+  }
 
   return (
     <Box
@@ -30,6 +36,7 @@ function EventPost(props) {
       flexDirection={{ base: 'column', sm: 'row' }}
       justifyContent="space-between"
     >
+      {redirect && <Redirect push to={`/events/${props.genre}/${props.index}`} />}
       <Box
         display="flex"
         flex="1"
@@ -94,15 +101,14 @@ function EventPost(props) {
         <BlogAuthor name={data.date} date={new Date('2021-04-06T19:01:27Z')} />
         <br />
         <br />
-        {/* <Link>
           <Button
             rightIcon={<BsArrowRight />}
             colorScheme="blue"
             variant="solid"
+            onClick={handleClick}
           >
             Know More
           </Button>
-        </Link> */}
       </Box>
     </Box>
   );
