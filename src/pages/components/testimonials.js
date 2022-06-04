@@ -42,7 +42,7 @@
       content:
         "Thank you for making it painless, pleasant and most of all, hassle free! I'm good to go. No matter where you go, EEZY is the coolest, most happening thing around! I love EEZY!",
       avatar:
-        'https://drive.google.com/uc?export=view&id=1NhvS3470k5iqLh84WqsxgzbMGvLOLdvn',
+        'https://ik.imagekit.io/dhruvja/7410215_jMqWVte0x.png',
     },
     {
       name: 'Dance',

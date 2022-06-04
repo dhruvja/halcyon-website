@@ -102,7 +102,7 @@ function Events(props) {
         <Heading as="h1">Genre Events</Heading>
         {present &&
           dataItems[index].events.map((value, index) => {
-            console.log(value);
+            console.log(value.image);
             return <EventPost data={value} genre={genre} index={index} />;
           })}
       </Container>

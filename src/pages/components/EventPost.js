@@ -20,7 +20,6 @@ function EventPost(props) {
   const [redirect, setRedirect] = useState(false)
 
   useEffect(() => {
-    console.log(props.data);
     setData(props.data);
     setPresent(true);
   }, []);
@@ -28,6 +27,7 @@ function EventPost(props) {
   const handleClick = () => {
     setRedirect(true)
   }
+
 
   return (
     <Box
@@ -54,7 +54,7 @@ function EventPost(props) {
             <Image
               borderRadius="lg"
               src={
-                'https://images.unsplash.com/photo-1499951360447-b19be8fe80f5?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=800&q=80'
+                data.image
               }
               alt="some good alt text"
               objectFit="contain"
@@ -94,7 +94,6 @@ function EventPost(props) {
         >
           {present &&
             data.rules.map((value, index) => {
-              console.log(value);
               return value + ' ';
             })}
         </Text>
