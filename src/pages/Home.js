@@ -192,7 +192,7 @@ function Home() {
             fontWeight={'bold'}
             color={useColorModeValue('gray.700', 'gray.50')}
           >
-            You're in good company
+            Welcome to Halcyon
           </chakra.h1>
           <chakra.h2
             margin={'auto'}
@@ -201,11 +201,11 @@ function Home() {
             fontWeight={'medium'}
             color={useColorModeValue('gray.500', 'gray.400')}
           >
-            See why over{' '}
+            There are over {' '}
             <chakra.strong color={useColorModeValue('gray.700', 'gray.50')}>
-              150,000+
+              3000+
             </chakra.strong>{' '}
-            influencers use EEZY to manage their social media content!
+            people attending events from various places.
           </chakra.h2>
         </Box>
         <SimpleGrid
