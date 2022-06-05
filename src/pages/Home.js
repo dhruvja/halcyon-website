@@ -75,15 +75,13 @@ function Home() {
             <Heading>
               To Mysteries and Buried Secrets From The Tales Of Old
             </Heading>
-            <Text color={'gray.500'} fontSize={'lg'}>
-              Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
-              nonumy eirmod tempor invidunt ut labore
+            <Text fontSize={'lg'}>
+              We welcome you to the Halcyon 2022.
             </Text>
-            <Stack
+            {/* <Stack
               spacing={4}
               divider={
                 <StackDivider
-                  borderColor={useColorModeValue('gray.100', 'gray.700')}
                 />
               }
             >
@@ -106,7 +104,7 @@ function Home() {
                 iconBg={useColorModeValue('purple.100', 'purple.900')}
                 text={'Market Analysis'}
               />
-            </Stack>
+            </Stack> */}
           </Stack>
           <Flex>
             <Image
@@ -190,7 +188,6 @@ function Home() {
             fontSize={48}
             fontFamily={'Work Sans'}
             fontWeight={'bold'}
-            color={useColorModeValue('gray.700', 'gray.50')}
           >
             Welcome to Halcyon
           </chakra.h1>
@@ -199,10 +196,9 @@ function Home() {
             width={'70%'}
             fontFamily={'Inter'}
             fontWeight={'medium'}
-            color={useColorModeValue('gray.500', 'gray.400')}
           >
             There are over {' '}
-            <chakra.strong color={useColorModeValue('gray.700', 'gray.50')}>
+            <chakra.strong >
               3000+
             </chakra.strong>{' '}
             people attending events from various places.

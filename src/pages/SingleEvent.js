@@ -24,7 +24,7 @@ import { FaInstagram, FaTwitter, FaYoutube } from 'react-icons/fa';
 import { MdLocalShipping } from 'react-icons/md';
 import theme from './components/theme';
 import { BsSun, BsMoon } from 'react-icons/bs';
-import data from '../data.json';
+import data from '../data/halcyon.json';
 import { Redirect } from 'react-router-dom';
 import Footer from './components/footer'
 import Navbar from './components/navbar';
@@ -140,7 +140,7 @@ function SingleEvent(props) {
                 {singleData.name}
               </Heading>
               <Text
-                color={useColorModeValue('gray.900', 'gray.400')}
+                // color={useColorModeValue('gray.900', 'gray.400')}
                 fontWeight={300}
                 fontSize={'2xl'}
               >

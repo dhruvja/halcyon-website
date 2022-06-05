@@ -47,7 +47,7 @@ import { FaInstagram, FaTwitter, FaYoutube } from 'react-icons/fa';
 import theme from './components/theme';
 import { testimonials } from './components/testimonials';
 import EventPost from './components/EventPost';
-import data from '../data.json';
+import data from '../data/halcyon.json';
 import { Redirect } from 'react-router-dom';
 import Footer from './components/footer'
 import Navbar from './components/navbar'

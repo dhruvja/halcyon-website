@@ -8,6 +8,7 @@ import {
   useColorModeValue,
   HStack,
   Button,
+  Tag
 } from '@chakra-ui/react';
 import { useColorMode } from '@chakra-ui/color-mode';
 import { BsArrowRight } from 'react-icons/bs';
@@ -80,7 +81,7 @@ function EventPost(props) {
         justifyContent="center"
         marginTop={{ base: '3', sm: '0' }}
       >
-        {/* <BlogTags tags={['Engineering', 'Product']} /> */}
+        { data.open && <BlogTags tags={['Open Event']} />}
         <Heading marginTop="1">
           <Link textDecoration="none" _hover={{ textDecoration: 'none' }} href={`/events/${props.genre}/${props.index}`}>
             {data.name}
@@ -119,6 +120,20 @@ const BlogAuthor = props => {
       <Text fontWeight="medium">{props.name}</Text>
       <Text>—</Text>
       <Text>{props.time}</Text>
+    </HStack>
+  );
+};
+
+const BlogTags = props => {
+  return (
+    <HStack spacing={2} marginTop={props.marginTop}>
+      {props.tags.map(tag => {
+        return (
+          <Tag size={'md'} variant="solid" colorScheme="orange" key={tag}>
+            {tag}
+          </Tag>
+        );
+      })}
     </HStack>
   );
 };
