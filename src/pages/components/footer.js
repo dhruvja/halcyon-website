@@ -36,6 +36,7 @@ import {
   // theme
 } from '@chakra-ui/react';
 import { FaInstagram, FaTwitter, FaYoutube } from 'react-icons/fa';
+import { IoMdMail } from 'react-icons/io';
 
 function Footer() {
   return (
@@ -84,13 +85,10 @@ function Footer() {
         >
           <Text>© Halcyon 2022. Designed and Built by Dhruv</Text>
           <Stack direction={'row'} spacing={6}>
-            <SocialButton label={'Twitter'} href={'#'}>
-              <FaTwitter />
+            <SocialButton label={'Mail'} href={'mailto:halcyon.sit@gmail.com'}>
+              <IoMdMail />
             </SocialButton>
-            <SocialButton label={'YouTube'} href={'#'}>
-              <FaYoutube />
-            </SocialButton>
-            <SocialButton label={'Instagram'} href={'#'}>
+            <SocialButton label={'Instagram'} href={'https://www.instagram.com/halcyon_official/?hl=en'}>
               <FaInstagram />
             </SocialButton>
           </Stack>
