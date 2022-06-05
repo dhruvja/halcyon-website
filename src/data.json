@@ -22,7 +22,7 @@
           "registration_fee": "200"
         },
         {
-          "name": "Westren Vocal Solo",
+          "name": "Western Vocal Solo",
           "image": "https://ik.imagekit.io/halcyon2022/halcyon-coverpage/western_singing_ERcHGEDnF.jpg",
           "open": false,
           "prize": "",
@@ -151,6 +151,30 @@
           "date": "16 June 2022",
           "location": "Chemical Dept",
           "time": "2:15 PM",
+          "registration_fee": "200"
+        },
+        {
+          "name": "JAM",
+          "image": "",
+          "open": true,
+          "prize": "",
+          "final": true,
+          "finaldate": "18 june 2022",
+          "finallocation": "Media Centre",
+          "finaltime": "2:30 PM",
+          "brief": "",
+          "rules": [
+            "Open event.",
+            "He/She would be objected for the following reasons",
+            "Usage of slang, direct speech, and abbreviations.",
+            "Plagiarism or Redundancy.",
+            "Deviation from the topic/time-wasting tactics.",
+            "Unnecessary stress or obsession with words,incoherence, or dramatization.",
+            "Standard formats are not to be used."
+          ],
+          "date": "18 June 2022",
+          "location": "Media Centre",
+          "time": "11:15 AM",
           "registration_fee": "200"
         },
         {
@@ -652,6 +676,29 @@
           "date": "16 June 2022",
           "location": "AD Block Sem Hall",
           "registration_fee": "200"
+        },
+        {
+          "name": "Indian Ethnic Show",
+          "image": "https://ik.imagekit.io/halcyon2022/halcyon-coverpage/standup_comidy_Xc3Zq0CcMO.jpg",
+          "open": true,
+          "prize": "32000",
+          "brief": "",
+          "rules": [
+            "3 teams per college.",
+            "A team can include boys and girls.",
+            "Minimum 4 participants and maximum 20 participants.",
+            "Karaoke will be allowed.Time limit is 8+2 minutes.",
+            "Teams have to submit photos and videos of their performance as per the date announced on the official Instagram page. ",
+            "Participants are requested to behave decently on stage.",
+            "Indecent acts of physical contact or vulgarity on stage will lead to disqualification.",
+            "Dress code of participants should strictly portray Indian ethnicity and should not involve any kind of vulgarity.",
+            "Traditional culture of different states has to be presented.",
+            "Decision of the judges is final and binding"
+          ],
+          "date": "16 June 2022",
+          "location": "Open Stage",
+          "registration_fee": "1200",
+          "time": "6:00 PM"
         },
         {
           "name": "Street Play",
