@@ -46,7 +46,7 @@ function Home() {
               To Mysteries and Buried Secrets From The Tales Of Old
             </Heading>
             <Text fontSize={'lg'}>
-              We welcome you to the Halcyon 2022.
+            Halcyon, the annual summer fest of Siddaganga Institute of Technology, Tumakuru is the largest event that SIT hosts, held for a span of 3 days. The charm of this annual festival has anything but not diminished with the spirits of the participants, organizers and the audience growing stronger and bigger every year. With a footfall of 5000+ participants in and around the state participating in the events, the fest is growing every year. We have 38+ events along with several informal events. This Halcyon is bigger than ever before, celebrating its 30th year.
             </Text>
             {/* <Stack
               spacing={4}

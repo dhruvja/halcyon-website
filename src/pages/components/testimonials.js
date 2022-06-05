@@ -4,7 +4,7 @@
       link: "literary",
       role: 'Chief Marketing Officer',
       content:
-        'It really saves me time and effort. It is exactly what our business has been lacking. EEZY is the most valuable business resource we have EVER purchased. After using EEZY my business skyrocketed!',
+        'The Literary genre is a forum where highly talented and creative minds get a chance to let their vices flow, express their thoughts and share something exciting. Some of the most successful and crowd pulling events in the institute were organised under the literary genre such as the Debate, Quiz, Just a minute, Spell bee, and so forth.',
       avatar:
         'https://ik.imagekit.io/halcyon2022/Icons/Lit_FjxVhtjjw.png',
     },
