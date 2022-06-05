@@ -3,46 +3,19 @@ import {
   ChakraProvider,
   Box,
   Text,
-  Link,
-  VStack,
-  Code,
   Grid,
   Flex,
   Container,
   Heading,
   Stack,
-  Button,
-  Icon,
-  IconProps,
-  Avatar,
-  Menu,
-  MenuButton,
-  MenuList,
-  MenuItem,
-  MenuDivider,
-  useDisclosure,
   useColorModeValue,
-  // useColorMode,
-  Center,
   SimpleGrid,
   chakra,
-  StackDivider,
   Image,
-  VisuallyHidden,
   GridItem,
-  useBreakpointValue,
   // theme
 } from '@chakra-ui/react';
-import { useColorMode } from '@chakra-ui/color-mode';
-// import { ColorModeSwitcher } from './ColorModeSwitcher';
-// import theme from './theme';
-import { FcAssistant, FcDonate, FcInTransit } from 'react-icons/fc';
-import { IoMdMail } from 'react-icons/io';
-import Illustration from './components/Icons';
-import { BsSun, BsMoon } from 'react-icons/bs';
 import TestimonialCard from './components/backdrop';
-import { ReactElement } from 'react';
-import { FaInstagram, FaTwitter, FaYoutube } from 'react-icons/fa';
 import theme from './components/theme';
 import { testimonials } from './components/testimonials';
 import Footer from './components/footer';
@@ -50,9 +23,6 @@ import Navbar from './components/navbar'
 import Hero from './components/Hero'
 
 function Home() {
-  const { colorMode, toggleColorMode } = useColorMode();
-  const { name, role, content, avatar, index } = testimonials;
-
   return (
     <ChakraProvider theme={theme}>
       <Navbar />
@@ -233,41 +203,5 @@ function Home() {
     </ChakraProvider>
   );
 }
-
-const Feature = ({ title, text, icon }) => {
-  return (
-    <Stack>
-      <Flex
-        w={16}
-        h={16}
-        align={'center'}
-        justify={'center'}
-        color={'white'}
-        rounded={'full'}
-        bg={'gray.100'}
-        mb={1}
-      >
-        {icon}
-      </Flex>
-      <Text fontWeight={600}>{title}</Text>
-      <Text color={'gray.600'}>{text}</Text>
-    </Stack>
-  );
-};
-
-const NavLink = ({ children }) => (
-  <Link
-    px={2}
-    py={1}
-    rounded={'md'}
-    _hover={{
-      textDecoration: 'none',
-      bg: useColorModeValue('gray.200', 'gray.700'),
-    }}
-    href={'#'}
-  >
-    {children}
-  </Link>
-);
 
 export default Home;
