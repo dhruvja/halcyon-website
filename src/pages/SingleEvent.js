@@ -283,7 +283,7 @@ function SingleEvent(props) {
               </Box>
             </Stack>
 
-            <Link href={present && dataItems[index].link}>
+            <Link href={present && dataItems[index].link} target="_blank">
               <Button
                 rounded={'none'}
                 w={'full'}
