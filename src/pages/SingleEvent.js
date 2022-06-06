@@ -283,7 +283,7 @@ function SingleEvent(props) {
               </Box>
             </Stack>
 
-            <Link href="https://docs.google.com/forms/d/e/1FAIpQLSfY5qDNzmjIj-D1cxypzSN687QTw0rE9rB-Q_bXbv4TFtOP5Q/viewform">
+            <Link href={present && dataItems[index].link}>
               <Button
                 rounded={'none'}
                 w={'full'}
