@@ -49,7 +49,7 @@
       link: "dance",
       role: 'Musician',
       content:
-        'I am so pleased with this product. EEZY is both attractive and highly adaptable. Without EEZY, we would have gone bankrupt by now. Thank you for creating this product!',
+        'Dance has always been a part of human culture, rituals and celebrations. Dance is a powerful impulse, but the art of dance is that impulse channeled by skillful performers into something that becomes intensely expressive and that may delight spectators who feel no wish to dance themselves.',
       avatar:
         'https://ik.imagekit.io/halcyon2022/Icons/dance-1_SQCSdfoe0.png',
     },
