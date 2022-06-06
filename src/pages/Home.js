@@ -122,7 +122,7 @@ function Home() {
               <Text fontSize={'4xl'} fontWeight={'bold'}>
                 6
               </Text>
-              <Box fontSize={'md'}>Total Categories</Box>
+              <Box fontSize={'md'}>Total Genres</Box>
             </Flex>
           </GridItem>
           <GridItem w="100%">

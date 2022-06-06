@@ -22,7 +22,7 @@
       link: "theatre",
       role: 'Movie star',
       content:
-        "Thank you for making it painless, pleasant and most of all, hassle free! I'm good to go. No matter where you go, EEZY is the coolest, most happening thing around! I love EEZY!",
+        "Theater is a collaborative form of performing art that uses live performers, usually actors or actresses, to present the experience of a real or imagined event before a live audience in a specific place, often a stage. The performers may communicate this experience to the audience through combinations of gesture, speech, song, music, and dance. Elements of art, such as painted scenery and stagecraft such as lighting are used to enhance the physicality, presence and immediacy of the experience.",
       avatar:
         'https://ik.imagekit.io/halcyon2022/Icons/theater_1MSjodu5P.png',
     },
