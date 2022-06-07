@@ -185,8 +185,7 @@ function SingleEvent(props) {
                   Event Details
                 </Text>
 
-                {present && dataItems[index].name === 'literary' &&
-                singleData.final === true ? (
+                {present && (singleData.final === true ? (
                   <List spacing={2}>
                     <ListItem>
                       <Text as={'span'} fontWeight={'bold'}>
@@ -240,7 +239,7 @@ function SingleEvent(props) {
                       {singleData.location}
                     </ListItem>
                   </List>
-                )}
+                ))}
               </Box>
               <Box>
                 <Text
