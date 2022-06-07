@@ -18,7 +18,7 @@
         'https://ik.imagekit.io/halcyon2022/Icons/Gaming_K1DFCy2IU.png',
     },
     {
-      name: 'Theater',
+      name: 'Theatre',
       link: "theatre",
       role: 'Movie star',
       content:
