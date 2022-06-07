@@ -31,7 +31,7 @@
       link: "music",
       role: 'Musician',
       content:
-        'I am so pleased with this product. EEZY is both attractive and highly adaptable. Without EEZY, we would have gone bankrupt by now. Thank you for creating this product!',
+        'Music is concerned with combining vocal or instrumental sounds for beauty of form or emotional expression. Both the simple folk song and the complex electronic composition belong to the same activity. Both are humanly engineered; both are conceptual and auditory, and these factors have been present in the music of all styles and all periods of history throughout the world.',
       avatar:
         'https://ik.imagekit.io/halcyon2022/Icons/Music_Nx5kjpztW.png',
     },
@@ -40,7 +40,7 @@
       link: "finearts",
       role: 'Movie star',
       content:
-        "Thank you for making it painless, pleasant and most of all, hassle free! I'm good to go. No matter where you go, EEZY is the coolest, most happening thing around! I love EEZY!",
+        "Fine art is 'a visual art considered to have been created primarily for aesthetic and intellectual purposes and judged for its beauty and meaningfulness, specifically, painting, sculpture, drawing, watercolor, graphics, and architecture.",
       avatar:
         'https://ik.imagekit.io/halcyon2022/Icons/Fine_Arts_LN8zasKo1.png',
     },
