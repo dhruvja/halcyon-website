@@ -13,7 +13,7 @@
       link: "gaming",
       role: 'Entrepreneur',
       content:
-        "I didn't even need training. We've used EEZY for the last five years. I have gotten at least 50 times the value from EEZY. I made back the purchase price in just 48 hours!",
+        "Gaming has seen several “golden ages” , each of which were believed to mark the apex of its rise in popularity. This genre is a platform to those who can play and improve their quick thinking,strategy planning , fast analysis , situational awareness,skills and also multitasking.",
       avatar:
         'https://ik.imagekit.io/halcyon2022/Icons/Gaming_K1DFCy2IU.png',
     },
