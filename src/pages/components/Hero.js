@@ -14,7 +14,7 @@ function Hero() {
       w={'full'}
       h={'80vh'}
       backgroundImage={
-        'url(https://ik.imagekit.io/halcyon2022/halcyon-coverpage/sea-of-thieves-forsaken-shores-4k_copy_XbJVQ_btS.jpg)'
+        'url(https://ik.imagekit.io/halcyon2022/sea-of-thieves-forsaken-shores-4k_copy__1__tg6-WNQjB.jpg)'
       }
       backgroundSize={'cover'}
       backgroundPosition={'center center'}>
