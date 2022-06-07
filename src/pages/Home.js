@@ -77,9 +77,9 @@ function Home() {
           <GridItem w="100%">
             <Flex flexDirection={'column'}>
               <Text fontSize={'4xl'} fontWeight={'bold'}>
-                35
+                35+
               </Text>
-              <Box fontSize={'md'}>More than 35 Events will take place</Box>
+              <Box fontSize={'md'}>Events will take place</Box>
             </Flex>
           </GridItem>
           <GridItem w="100%">
