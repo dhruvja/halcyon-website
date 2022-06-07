@@ -52,7 +52,10 @@ function Footer() {
         justify={'center'}
         align={'center'}
       >
-        <Center><Logo /></Center>
+        <Center>
+          <Image boxSize = "60px" src="https://ik.imagekit.io/halcyon2022/Logo2022_bWL_Yydym.png" alt="Dan Abramov" /> &nbsp;
+          <Logo />
+        </Center>
         {/* <Stack direction={'row'} spacing={6}> */}
         <p>
           Shreyas Upadhya: <Link href="tel:827-730-9055">827-730-9055</Link>
