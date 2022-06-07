@@ -23,7 +23,6 @@ import {
     Center
   } from '@chakra-ui/react';  
   import { BsSun, BsMoon } from 'react-icons/bs';
-  import { ReactComponent as YourSvg } from './LogoSeal22.svg';
 
 
 function Navbar() {
