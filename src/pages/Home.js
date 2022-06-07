@@ -48,40 +48,13 @@ function Home() {
             <Text fontSize={'lg'}>
             Halcyon, the annual summer fest of Siddaganga Institute of Technology, Tumakuru is the largest event that SIT hosts, held for a span of 3 days. The charm of this annual festival has anything but not diminished with the spirits of the participants, organizers and the audience growing stronger and bigger every year. With a footfall of 5000+ participants in and around the state participating in the events, the fest is growing every year. We have 38+ events along with several informal events. This Halcyon is bigger than ever before, celebrating its 30th year.
             </Text>
-            {/* <Stack
-              spacing={4}
-              divider={
-                <StackDivider
-                />
-              }
-            >
-              <Feature
-                icon={
-                  <Icon as={FcAssistant} color={'yellow.500'} w={5} h={5} />
-                }
-                iconBg={useColorModeValue('yellow.100', 'yellow.900')}
-                text={'Business Planning'}
-              />
-              <Feature
-                icon={<Icon as={FcDonate} color={'green.500'} w={5} h={5} />}
-                iconBg={useColorModeValue('green.100', 'green.900')}
-                text={'Financial Planning'}
-              />
-              <Feature
-                icon={
-                  <Icon as={FcInTransit} color={'purple.500'} w={5} h={5} />
-                }
-                iconBg={useColorModeValue('purple.100', 'purple.900')}
-                text={'Market Analysis'}
-              />
-            </Stack> */}
           </Stack>
           <Flex>
             <Image
               rounded={'md'}
               alt={'feature image'}
               src={
-                'https://images.unsplash.com/photo-1554200876-56c2f25224fa?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80'
+                'https://ik.imagekit.io/halcyon2022/Logo2022_bWL_Yydym.png'
               }
               objectFit={'cover'}
             />
@@ -190,14 +163,6 @@ function Home() {
         <br />
         <br />
         <br />
-        {/* <Box>
-          <Icon viewBox="0 0 40 35" mt={14} boxSize={10} color={'purple.400'}>
-            <path
-              fill={'currentColor'}
-              d="M10.7964 5.04553e-07C8.66112 -0.000123335 6.57374 0.632971 4.79827 1.81922C3.0228 3.00547 1.63898 4.69158 0.82182 6.66433C0.00466116 8.63708 -0.209132 10.8079 0.207477 12.9021C0.624087 14.9964 1.65239 16.9201 3.16233 18.4299L19.1153 34.3828C19.2395 34.5074 19.3871 34.6062 19.5496 34.6736C19.7121 34.741 19.8863 34.7757 20.0622 34.7757C20.2381 34.7757 20.4123 34.741 20.5748 34.6736C20.7373 34.6062 20.8848 34.5074 21.0091 34.3828L36.962 18.4272C38.9319 16.3917 40.0228 13.6636 39.9996 10.8311C39.9764 7.99858 38.8409 5.28867 36.838 3.28573C34.835 1.28279 32.1251 0.147283 29.2926 0.124081C26.4601 0.100879 23.732 1.19184 21.6965 3.1617L20.0622 4.79337L18.4305 3.1617C17.4276 2.15892 16.237 1.36356 14.9267 0.821064C13.6163 0.278568 12.2119 -0.000433066 10.7937 5.04553e-07H10.7964Z"
-            />
-          </Icon>
-        </Box> */}
       </Flex>
       <Footer />
     </ChakraProvider>
