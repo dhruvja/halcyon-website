@@ -79,7 +79,7 @@ function TestimonialCard(props) {
               fontFamily={'Inter'}
               fontWeight={'bold'}
               >
-              {' '}
+              {'  '}
               Click to know more
             </chakra.span>
           </chakra.p>
