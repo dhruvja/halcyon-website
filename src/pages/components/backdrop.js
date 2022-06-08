@@ -7,6 +7,7 @@ import {
     Icon,
     SimpleGrid,
     useColorModeValue,
+    Button
   } from '@chakra-ui/react';
   import {Link} from 'react-router-dom'
 
@@ -72,13 +73,15 @@ function TestimonialCard(props) {
           </chakra.h1>
           <chakra.p fontFamily={'Work Sans'} fontWeight={'light'} fontSize={14}>
             {content}
-            {/* <chakra.span
+            <br />
+            <br />
+            <chakra.span
               fontFamily={'Inter'}
-              fontWeight={'medium'}
-              color={'gray.500'}>
+              fontWeight={'bold'}
+              >
               {' '}
-              - {role}
-            </chakra.span> */}
+              Click to know more
+            </chakra.span>
           </chakra.p>
         </Flex>
         <Avatar
