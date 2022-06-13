@@ -145,7 +145,7 @@ function SingleEvent(props) {
                 fontSize={'2xl'}
               >
                 {/* <Text as={'span'} fontWeight={'bold'}>Prize Money:</Text> */}
-                ₹{singleData.prize} INR
+                Cash prize: ₹{singleData.prize}
               </Text>
             </Box>
 
