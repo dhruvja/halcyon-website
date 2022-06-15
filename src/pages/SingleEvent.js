@@ -26,7 +26,7 @@ import theme from './components/theme';
 import { BsSun, BsMoon } from 'react-icons/bs';
 import data from '../data/halcyon.json';
 import { Redirect } from 'react-router-dom';
-import Footer from './components/footer'
+import Footer from './components/footer';
 import Navbar from './components/navbar';
 
 function SingleEvent(props) {
@@ -121,9 +121,7 @@ function SingleEvent(props) {
             <Image
               rounded={'md'}
               alt={'product image'}
-              src={
-                singleData.image
-              }
+              src={singleData.image}
               fit={'cover'}
               align={'center'}
               w={'100%'}
@@ -185,61 +183,62 @@ function SingleEvent(props) {
                   Event Details
                 </Text>
 
-                {present && (singleData.final === true ? (
-                  <List spacing={2}>
-                    <ListItem>
-                      <Text as={'span'} fontWeight={'bold'}>
-                        Registration Fee:
-                      </Text>{' '}
-                      {singleData.registration_fee}
-                    </ListItem>
-                    <ListItem>
-                      <Text as={'span'} fontWeight={'bold'}>
-                        Prelims Date and time:
-                      </Text>{' '}
-                      {singleData.date} {singleData.time}
-                    </ListItem>
-                    <ListItem>
-                      <Text as={'span'} fontWeight={'bold'}>
-                        Prelims Location:
-                      </Text>{' '}
-                      {singleData.location}
-                    </ListItem>
-                    <ListItem>
-                      <Text as={'span'} fontWeight={'bold'}>
-                        Finals Date and Time:
-                      </Text>{' '}
-                      {singleData.finaldate} {singleData.finaltime}
-                    </ListItem>
-                    <ListItem>
-                      <Text as={'span'} fontWeight={'bold'}>
-                        Finals Location:
-                      </Text>{' '}
-                      {singleData.finallocation}
-                    </ListItem>
-                  </List>
-                ) : (
-                  <List spacing={2}>
-                    <ListItem>
-                      <Text as={'span'} fontWeight={'bold'}>
-                        Registration Fee:
-                      </Text>{' '}
-                      {singleData.registration_fee}
-                    </ListItem>
-                    <ListItem>
-                      <Text as={'span'} fontWeight={'bold'}>
-                        Date and Time:
-                      </Text>{' '}
-                      {singleData.date}
-                    </ListItem>
-                    <ListItem>
-                      <Text as={'span'} fontWeight={'bold'}>
-                        Location:
-                      </Text>{' '}
-                      {singleData.location}
-                    </ListItem>
-                  </List>
-                ))}
+                {present &&
+                  (singleData.final === true ? (
+                    <List spacing={2}>
+                      <ListItem>
+                        <Text as={'span'} fontWeight={'bold'}>
+                          Registration Fee:
+                        </Text>{' '}
+                        {singleData.registration_fee}
+                      </ListItem>
+                      <ListItem>
+                        <Text as={'span'} fontWeight={'bold'}>
+                          Prelims Date and time:
+                        </Text>{' '}
+                        {singleData.date} {singleData.time}
+                      </ListItem>
+                      <ListItem>
+                        <Text as={'span'} fontWeight={'bold'}>
+                          Prelims Location:
+                        </Text>{' '}
+                        {singleData.location}
+                      </ListItem>
+                      <ListItem>
+                        <Text as={'span'} fontWeight={'bold'}>
+                          Finals Date and Time:
+                        </Text>{' '}
+                        {singleData.finaldate} {singleData.finaltime}
+                      </ListItem>
+                      <ListItem>
+                        <Text as={'span'} fontWeight={'bold'}>
+                          Finals Location:
+                        </Text>{' '}
+                        {singleData.finallocation}
+                      </ListItem>
+                    </List>
+                  ) : (
+                    <List spacing={2}>
+                      <ListItem>
+                        <Text as={'span'} fontWeight={'bold'}>
+                          Registration Fee:
+                        </Text>{' '}
+                        {singleData.registration_fee}
+                      </ListItem>
+                      <ListItem>
+                        <Text as={'span'} fontWeight={'bold'}>
+                          Date and Time:
+                        </Text>{' '}
+                        {singleData.date}
+                      </ListItem>
+                      <ListItem>
+                        <Text as={'span'} fontWeight={'bold'}>
+                          Location:
+                        </Text>{' '}
+                        {singleData.location}
+                      </ListItem>
+                    </List>
+                  ))}
               </Box>
               <Box>
                 <Text
@@ -274,7 +273,8 @@ function SingleEvent(props) {
                     dataItems[index].co_ordinators.map((value, index) => {
                       return (
                         <ListItem>
-                          {value.name}: <Link href={`tel:${value.phone}`}>{value.phone}</Link>
+                          {value.name}:{' '}
+                          <Link href={`tel:${value.phone}`}>{value.phone}</Link>
                         </ListItem>
                       );
                     })}
@@ -282,25 +282,45 @@ function SingleEvent(props) {
               </Box>
             </Stack>
 
-            <Link href={present && dataItems[index].link} target="_blank">
-              <Button
-                rounded={'none'}
-                w={'full'}
-                mt={8}
-                size={'lg'}
-                py={'7'}
-                bg={useColorModeValue('gray.900', 'gray.50')}
-                color={useColorModeValue('white', 'gray.900')}
-                textTransform={'uppercase'}
-                _hover={{
-                  transform: 'translateY(2px)',
-                  boxShadow: 'lg',
-                }}
-              >
-                Register Now
-              </Button>
-            </Link>
-
+            {singleData.name === 'Creative Photography' ? (
+              <Link href={present && singleData.link} target="_blank">
+                <Button
+                  rounded={'none'}
+                  w={'full'}
+                  mt={8}
+                  size={'lg'}
+                  py={'7'}
+                  // bg={useColorModeValue('gray.900', 'gray.50')}
+                  // color={useColorModeValue('white', 'gray.900')}
+                  textTransform={'uppercase'}
+                  _hover={{
+                    transform: 'translateY(2px)',
+                    boxShadow: 'lg',
+                  }}
+                >
+                  Register Now
+                </Button>
+              </Link>
+            ) : (
+              <Link href={present && dataItems[index].link} target="_blank">
+                <Button
+                  rounded={'none'}
+                  w={'full'}
+                  mt={8}
+                  size={'lg'}
+                  py={'7'}
+                  // bg={useColorModeValue('gray.900', 'gray.50')}
+                  // color={useColorModeValue('white', 'gray.900')}
+                  textTransform={'uppercase'}
+                  _hover={{
+                    transform: 'translateY(2px)',
+                    boxShadow: 'lg',
+                  }}
+                >
+                  Register Now
+                </Button>
+              </Link>
+            )}
             <Stack
               direction="row"
               alignItems="center"
