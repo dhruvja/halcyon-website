@@ -143,7 +143,8 @@ function SingleEvent(props) {
                 fontSize={'2xl'}
               >
                 {/* <Text as={'span'} fontWeight={'bold'}>Prize Money:</Text> */}
-                Cash prize: ₹{singleData.prize}
+                Cash prize: ₹{singleData.prize} <br />
+                {singleData.name === 'Creative Photography' && "Topic: Symmetry in nature"}
               </Text>
             </Box>
 
