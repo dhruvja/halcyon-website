@@ -38,7 +38,7 @@ function Hero() {
             fontWeight={400}
             lineHeight={1.2}
             fontSize={useBreakpointValue({ base: '3xl', md: '4xl' })}>
-            To Mysteries and Buried Secrets From The Tales Of Old
+            This was a great success and sadly got over
           </Text>
       </VStack>
     </Flex>
