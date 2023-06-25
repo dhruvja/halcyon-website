@@ -31,18 +31,18 @@ function Navbar() {
     <Box bg={useColorModeValue('white.100', 'white.900')} px={4}>
       <Flex h={16} alignItems={'center'} justifyContent={'space-between'}>
         <Link href="/">
-            <Image boxSize = "60px" src="https://ik.imagekit.io/halcyon2022/Logo2022_bWL_Yydym.png" alt="Dan Abramov" />
+            <Image boxSize = "60px" src="https://ik.imagekit.io/htpc4eqw2/Halcyon2023shetty?updatedAt=1687005453228" alt="Dan Abramov" />
         </Link>
         <Flex alignItems={'center'}>
           <Stack direction={'row'} spacing={7}>
-            <Button
+            {/* <Button
               aria-label="Toggle Color Mode"
               onClick={() => toggleColorMode()}
               _focus={{ boxShadow: 'none' }}
               w="fit-content"
             >
               {colorMode === 'light' ? <BsMoon /> : <BsSun />}
-            </Button>
+            </Button> */}
           </Stack>
         </Flex>
       </Flex>
