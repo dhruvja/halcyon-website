@@ -35,7 +35,7 @@ function Home() {
               color={'blue.400'}
               fontWeight={600}
               fontSize={'sm'}
-              bg={useColorModeValue('blue.50', 'blue.900')}
+              bg={useColorModeValue('orange.50', 'orange.900')}
               p={2}
               alignSelf={'flex-start'}
               rounded={'md'}
@@ -43,10 +43,10 @@ function Home() {
               About Halcyon
             </Text>
             <Heading>
-              To Mysteries and Buried Secrets From The Tales Of Old
+              SET SAIL ON CELEBRATION OF CULTURES
             </Heading>
             <Text fontSize={'lg'}>
-            Halcyon, the annual summer fest of Siddaganga Institute of Technology, Tumakuru is the largest event that SIT hosts, held for a span of 3 days. The charm of this annual festival has anything but not diminished with the spirits of the participants, organizers and the audience growing stronger and bigger every year. With a footfall of 5000+ participants in and around the state participating in the events, the fest is growing every year. We have 38+ events along with several informal events. This Halcyon is bigger than ever before, celebrating its 30th year.
+            Halcyon, the annual summer fest of Siddaganga Institute of Technology, Tumakuru is the largest event that SIT hosts, held for a span of 2 days. The charm of this annual festival has anything but not diminished with the spirits of the participants, organizers and the audience growing stronger and bigger every year. With a footfall of 3000+ participants in and around the state participating in the events, the fest is growing every year. We have 30+ events along with several informal events. This Halcyon is bigger than ever before, celebrating its 31st year.
             </Text>
           </Stack>
           <Flex>
@@ -54,7 +54,7 @@ function Home() {
               rounded={'md'}
               alt={'feature image'}
               src={
-                'https://ik.imagekit.io/halcyon2022/Logo2022_bWL_Yydym.png'
+                'https://ik.imagekit.io/htpc4eqw2/Halcyon2023shetty?updatedAt=1687005453228'
               }
               objectFit={'cover'}
             />
@@ -77,7 +77,7 @@ function Home() {
           <GridItem w="100%">
             <Flex flexDirection={'column'}>
               <Text fontSize={'4xl'} fontWeight={'bold'}>
-                35+
+                30+
               </Text>
               <Box fontSize={'md'}>Events will take place</Box>
             </Flex>
@@ -85,7 +85,7 @@ function Home() {
           <GridItem w="100%">
             <Flex flexDirection={'column'}>
               <Text fontSize={'4xl'} fontWeight={'bold'}>
-                ₹290,000+
+                ₹220,000+
               </Text>
               <Box fontSize={'md'}>Total Cash Prizes</Box>
             </Flex>

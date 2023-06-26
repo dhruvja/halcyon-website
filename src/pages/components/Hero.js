@@ -14,7 +14,7 @@ function Hero() {
       w={'full'}
       h={'80vh'}
       backgroundImage={
-        'url(https://ik.imagekit.io/halcyon2022/sea-of-thieves-forsaken-shores-4k_copy__1__tg6-WNQjB.jpg)'
+        'url(https://ik.imagekit.io/3aff7hsp7/heroo.png?updatedAt=1687668433917)'
       }
       backgroundSize={'cover'}
       backgroundPosition={'center center'}>
@@ -29,7 +29,7 @@ function Hero() {
             fontWeight={700}
             lineHeight={1.2}
             fontSize={useBreakpointValue({ base: '3xl', md: '4xl' })}>
-            Halcyon 2022
+             
           </Text>
           
         </Stack>
@@ -38,7 +38,7 @@ function Hero() {
             fontWeight={400}
             lineHeight={1.2}
             fontSize={useBreakpointValue({ base: '3xl', md: '4xl' })}>
-            This was a great success and sadly got over
+            
           </Text>
       </VStack>
     </Flex>

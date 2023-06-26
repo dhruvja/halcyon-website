@@ -41,8 +41,8 @@ import { IoMdMail } from 'react-icons/io';
 function Footer() {
   return (
     <Box
-      bg={useColorModeValue('gray.50', 'gray.900')}
-      color={useColorModeValue('gray.700', 'gray.200')}
+      bg={useColorModeValue('purple.50', 'purple.900')}
+      color={useColorModeValue('purple.700', 'purple.200')}
     >
       <Container
         as={Stack}
@@ -53,18 +53,18 @@ function Footer() {
         align={'center'}
       >
         <Center>
-          <Image boxSize = "60px" src="https://ik.imagekit.io/halcyon2022/Logo2022_bWL_Yydym.png" alt="Dan Abramov" /> &nbsp;
+          <Image boxSize = "60px" src="https://ik.imagekit.io/htpc4eqw2/Halcyon2023shetty?updatedAt=1687005453228" alt="Dan Abramov" /> &nbsp;
           <Logo />
         </Center>
         {/* <Stack direction={'row'} spacing={6}> */}
         <p>
-          Shreyas Upadhya: <Link href="tel:827-730-9055">827-730-9055</Link>
+          Aniruddha S: <Link href="tel:998-692-8446">998-692-8446</Link>
         </p>
         <p>
-          Karthik Salera: <Link href="tel:938-026-8943">938-026-8943</Link>
+          Dilip Kumar Reddy: <Link href="tel:843-116-9328">843-116-9328</Link>
         </p>
         <p>
-          Urvi R Naidu: <Link href="tel:733-810-6255">733-810-6255</Link>
+          Supriya M R: <Link href="tel:953-542-9338">953-542-9338</Link>
         </p>
         {/* <Link href={'#'}>About</Link>
             <Link href={'#'}>Blog</Link>
@@ -86,7 +86,7 @@ function Footer() {
           justify={{ base: 'center', md: 'space-between' }}
           align={{ base: 'center', md: 'center' }}
         >
-          <Text>© Halcyon 2022. Designed and Built by Dhruv</Text>
+          <Text> Halcyon 2023.</Text>
           <Stack direction={'row'} spacing={6}>
             <SocialButton label={'Mail'} href={'mailto:halcyon.sit@gmail.com'}>
               <IoMdMail />
